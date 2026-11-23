@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: DemoWeapon002
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   id: demo_weapon_002
-  displayName: DemoWeapon003
+  displayName: DemoWeapon002
   slot: 1
-  viewModelPrefab: {fileID: 2425481642265952882, guid: 2fcddebfa3269ed4b99c7337eeb0b918, type: 3}
-  pickupPrefab: {fileID: 4488672323907209722, guid: 9decf7d56b2152f419743899680c3b05, type: 3}
+  viewModelPrefab: {fileID: 7477044902170308628, guid: f7a939f6e8a354a4783d651b1c112ba5, type: 3}
+  pickupPrefab: {fileID: 3512212753948486885, guid: 678876a1737a1d141afe36f5187a56c6, type: 3}
   fireMode: 1
   fireRate: 600
   burstCount: 3
@@ -86,15 +86,18 @@ MonoBehaviour:
   weaponKickBack: 0.02
   weaponKickPitch: 1.5
   swayMultiplier: 1
-  fireSounds: []
+  fireSounds:
+  - {fileID: 8300000, guid: e751abfbeb261db44aae981a0a43c081, type: 3}
+  - {fileID: 8300000, guid: 49a9a0d221e642145bb4cb5401ca0494, type: 3}
+  - {fileID: 8300000, guid: 0a4baadd0f671b94389b8ecbe1773994, type: 3}
   fireVolume: 1
   firePitchVariation: 0.05
-  dryFireSound: {fileID: 0}
+  dryFireSound: {fileID: 8300000, guid: 1ee296713cd0c874f9c72b444c6bc1f7, type: 3}
   equipSound: {fileID: 0}
   reloadSound: {fileID: 0}
-  muzzleFlashPrefab: {fileID: 0}
-  muzzleFlashLifetime: 1
-  impactEffectPrefab: {fileID: 0}
-  impactEffectLifetime: 10
+  muzzleFlashPrefab: {fileID: 2040519136449180928, guid: 4b21c20ba25573f44a6469b09f8866cb, type: 3}
+  muzzleFlashLifetime: 0.05
+  impactEffectPrefab: {fileID: 1187366766139503532, guid: a64b7f860c6094c42a068303f0d82788, type: 3}
+  impactEffectLifetime: 1
   locomotionCrossFade: 0.15
   actionCrossFade: 0.05

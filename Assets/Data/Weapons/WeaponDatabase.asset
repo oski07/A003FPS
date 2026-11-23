@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponDatabase
   weapons:
   - {fileID: 11400000, guid: 9854844133fa37c44bec1e7b9f33eaf4, type: 2}
+  - {fileID: 11400000, guid: e038064546458054386ffd151f20c7b2, type: 2}
